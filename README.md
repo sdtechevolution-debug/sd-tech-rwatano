@@ -89,6 +89,12 @@ This repo now includes deployment configuration files:
    - `CLOUDINARY_CLOUD_NAME`
    - `CLOUDINARY_API_KEY`
    - `CLOUDINARY_API_SECRET`
+   - `FRONTEND_URL` (used for password reset links)
+   - `SMTP_HOST` (optional email)
+   - `SMTP_PORT` (optional email)
+   - `SMTP_USER` (optional email)
+   - `SMTP_PASS` (optional email)
+   - `SMTP_FROM` (optional email)
    - `PORT=4000`
 6. If you need a hosted database, create a free Render PostgreSQL database and use its URL for `DATABASE_URL`.
 
